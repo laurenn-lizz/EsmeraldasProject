@@ -1,0 +1,41 @@
+body{
+font-family: 'Satisfy', cursive;
+
+}
+* {
+  box-sizing: border-box;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+h1{
+  background-color: #00FFFF;
+  font-family: 'Sanchez', serif;
+
+}
+/* image container section */
+/*resize image*/
+img{
+  height: 170px;
+  width: 115%
+  object-fit: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: transform .2s;
+
+}
+img:hover{
+  transform: scale(1.5);
+}
+
+h1{
+  background-color: #00FFFF;
+  font-family: 'Sanchez', serif;
+
+}
+}
